@@ -1,8 +1,8 @@
 .env
 .env.*
-!.env.example
 .langgraph_api/
 __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
+.git/
