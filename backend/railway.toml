@@ -2,6 +2,3 @@
 healthcheckPath = "/ok"
 healthcheckTimeout = 30
 restartPolicyType = "ON_FAILURE"
-
-[[services]]
-internalPort = 8000
