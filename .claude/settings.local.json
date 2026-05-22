@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.langchain.com)",
+      "Bash(python -m pip install -e .)",
+      "Bash(python3 -m pip install -e .)"
+    ]
+  }
+}
