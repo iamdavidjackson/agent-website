@@ -8,7 +8,7 @@ import React from "react";
 
 export default function DemoPage(): React.ReactNode {
   return (
-    <React.Suspense fallback={<div>Loading (layout)...</div>}>
+    <React.Suspense fallback={<div>Loading ...</div>}>
       <Toaster />
       <ThreadProvider>
         <StreamProvider>
