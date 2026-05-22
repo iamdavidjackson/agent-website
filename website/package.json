@@ -11,7 +11,7 @@
     "lint:fix": "next lint --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "pages:build": "npx @cloudflare/next-on-pages",
+    "pages:build": "npx @cloudflare/next-on-pages && echo '_worker.js' > .vercel/output/static/.assetsignore",
     "preview": "npm run pages:build && wrangler pages dev"
   },
   "dependencies": {
