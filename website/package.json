@@ -81,6 +81,5 @@
   "overrides": {
     "@langchain/core": "^0.3.42",
     "react-is": "^19.0.0-rc-69d4b800-20241021"
-  },
-  "packageManager": "npm@11.2.1"
+  }
 }

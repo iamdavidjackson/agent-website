@@ -1,4 +1,4 @@
 [deploy]
 healthcheckPath = "/ok"
-healthcheckTimeout = 30
+healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"
