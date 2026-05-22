@@ -1,8 +1,13 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+
 from langchain_anthropic import ChatAnthropic
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
 
-from .knowledge_base import get_retriever
+from knowledge_base import get_retriever
 
 model = ChatAnthropic(model="claude-sonnet-4-6")
 

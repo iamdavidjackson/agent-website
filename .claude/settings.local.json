@@ -3,7 +3,11 @@
     "allow": [
       "WebFetch(domain:docs.langchain.com)",
       "Bash(python -m pip install -e .)",
-      "Bash(python3 -m pip install -e .)"
+      "Bash(python3 -m pip install -e .)",
+      "Bash(pip install *)",
+      "Bash(pip3 install *)",
+      "Bash(python3 -m pip install langchain-community python-frontmatter rank-bm25 --break-system-packages)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }
