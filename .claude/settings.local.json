@@ -7,7 +7,12 @@
       "Bash(pip install *)",
       "Bash(pip3 install *)",
       "Bash(python3 -m pip install langchain-community python-frontmatter rank-bm25 --break-system-packages)",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/124.0.0.0 Safari/537.36\" \"https://www.london.ac.uk/study/courses/undergraduate/bsc-computer-science\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/124.0.0.0 Safari/537.36\" -H \"Accept: text/html,application/xhtml+xml\" \"https://www.london.ac.uk/study/courses/undergraduate/bsc-computer-science\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/124.0.0.0 Safari/537.36\" \"https://www.london.ac.uk/course/module/modal/3753\")",
+      "WebFetch(domain:www.london.ac.uk)",
+      "WebFetch(domain:web.archive.org)"
     ]
   }
 }
