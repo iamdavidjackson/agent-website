@@ -97,6 +97,7 @@ function OpenGitHubRepo() {
 
 export function Thread() {
   const [threadId, setThreadId] = useQueryState("threadId");
+  const [jobId] = useQueryState("jobId");
   const [chatHistoryOpen, setChatHistoryOpen] = useQueryState(
     "chatHistoryOpen",
     parseAsBoolean.withDefault(false),
@@ -170,11 +171,15 @@ export function Thread() {
 
     const toolMessages = ensureToolCallsHaveResponses(stream.messages);
     stream.submit(
-      { messages: [...toolMessages, newHumanMessage] },
+      {
+        messages: [...toolMessages, newHumanMessage],
+        job_id: jobId || null,
+      },
       {
         streamMode: ["values"],
         optimisticValues: (prev) => ({
           ...prev,
+          job_id: jobId || null,
           messages: [
             ...(prev.messages ?? []),
             ...toolMessages,

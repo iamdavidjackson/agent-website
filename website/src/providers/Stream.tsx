@@ -23,13 +23,18 @@ import { getApiKey } from "@/lib/api-key";
 import { useThreads } from "./Thread";
 import { toast } from "sonner";
 
-export type StateType = { messages: Message[]; ui?: UIMessage[] };
+export type StateType = {
+  messages: Message[];
+  job_id?: string | null;
+  ui?: UIMessage[];
+};
 
 const useTypedStream = useStream<
   StateType,
   {
     UpdateType: {
       messages?: Message[] | Message | string;
+      job_id?: string | null;
       ui?: (UIMessage | RemoveUIMessage)[] | UIMessage | RemoveUIMessage;
     };
     CustomEventType: UIMessage | RemoveUIMessage;
