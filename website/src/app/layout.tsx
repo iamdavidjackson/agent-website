@@ -11,8 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Agent Inbox",
-  description: "Agent Inbox UX by LangChain",
+  title: "Agent for David Jackson",
+  description:
+    "A conversational portfolio assistant for David Jackson's background, experience, and job-specific application context.",
 };
 
 export default function RootLayout({
