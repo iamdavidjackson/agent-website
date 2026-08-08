@@ -3,10 +3,11 @@
 Store application-specific job context here as markdown. Each job should use a stable id and live at:
 
 ```text
-backend/content/jobs/<job-id>.md
+content/jobs/<job-id>.md
 ```
 
-Open the website with `?jobId=<job-id>`. The backend loads the matching file and includes it as system context for the agent.
+Open the website with `/agent?jobId=<job-id>`. The build bundles the matching
+file and the chat API includes it as system context for the agent.
 
 Use this standard shape:
 

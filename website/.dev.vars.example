@@ -1,0 +1,3 @@
+NEXTJS_ENV=development
+ANTHROPIC_API_KEY=
+ANTHROPIC_MODEL=claude-sonnet-4-6

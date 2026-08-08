@@ -1,40 +1,75 @@
-# Agent Chat UI
+# iamdavidjackson.com
 
-Agent Chat UI is a Vite + React application which enables chatting with any LangGraph server with a `messages` key through a chat interface.
+David Jackson's website and portfolio assistant. The complete application runs
+as one Next.js service on Cloudflare Workers through the OpenNext adapter.
 
-## Setup
+## Local development
 
-> [!TIP]
-> Don't want to run the app locally? Use the deployed site here: [agent-chat-ui.vercel.app](https://agentchat.vercel.app)!
-
-First, clone the repository:
+Install dependencies and create the local Cloudflare variables file:
 
 ```bash
-git clone https://github.com/langchain-ai/agent-chat-ui.git
-
-cd agent-chat-ui
+npm install
+cp .dev.vars.example .dev.vars
 ```
 
-Install dependencies:
+Add an Anthropic API key to `.dev.vars`, then start Next.js:
 
 ```bash
-pnpm install
+npm run dev
 ```
 
-Run the app:
+The website is available at `http://localhost:3000`; the chat interface is at
+`http://localhost:3000/agent`.
+
+The build automatically bundles the shared Markdown files under
+`../content/knowledge-base` and `../content/jobs`. Run
+`npm run content:build` after changing that content if you need to inspect the
+generated JSON without performing a full build.
+
+## Cloudflare deployment
+
+Authenticate Wrangler and add the production secret once:
 
 ```bash
-pnpm dev
+npx wrangler login
+npx wrangler secret put ANTHROPIC_API_KEY
 ```
 
-The app will be available at `http://localhost:5173`.
+Optionally override the default Anthropic model:
 
-## Usage
+```bash
+npx wrangler secret put ANTHROPIC_MODEL
+```
 
-Once the app is running (or if using the deployed site), you'll be prompted to enter:
+Build and test in the Cloudflare Workers runtime:
 
-- **Deployment URL**: The URL of the LangGraph server you want to chat with. This can be a production or development URL.
-- **Assistant/Graph ID**: The name of the graph, or ID of the assistant to use when fetching, and submitting runs via the chat interface.
-- **LangSmith API Key**: (only required for connecting to deployed LangGraph servers) Your LangSmith API key to use when authenticating requests sent to LangGraph servers.
+```bash
+npm run preview
+```
 
-After entering these values, click `Continue`. You'll then be redirected to a chat interface where you can start chatting with your LangGraph server.
+Deploy the Worker:
+
+```bash
+npm run deploy
+```
+
+The default deployment is available at
+`https://agent-website.davidjackson123.workers.dev`.
+
+### Custom domain
+
+`iamdavidjackson.com` is attached to the Worker with a zone route. The imported
+GitHub Pages DNS record remains as an unused fallback origin:
+
+```toml
+[[routes]]
+pattern = "iamdavidjackson.com/*"
+zone_id = "44ae18acfa98783d56ef4f7d0b1ed807"
+```
+
+For Git-based Cloudflare deployments, use `website` as the application root and
+`npm run deploy` as the deploy command. The Worker name is `agent-website`.
+
+`/api/chat` uses a Cloudflare Rate Limiting binding to allow ten requests per
+minute per visitor before invoking the paid model. Keep `ANTHROPIC_API_KEY`
+server-side; never create a `NEXT_PUBLIC_` version of it.

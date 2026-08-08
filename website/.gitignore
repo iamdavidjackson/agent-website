@@ -29,6 +29,8 @@ pnpm-debug.log*
 
 # cloudflare
 .wrangler/
+.open-next/
+.dev.vars
 
 # typescript
 *.tsbuildinfo

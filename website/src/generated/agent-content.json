@@ -1,0 +1,391 @@
+{
+  "knowledgeDocuments": [
+    {
+      "id": "education/courses/agile-software-projects.md#1",
+      "source": "education/courses/agile-software-projects.md",
+      "category": "education",
+      "content": "---\nid: agile-software-projects\nprogramId: university-of-london-bsc-computer-science\ncourse: Agile Software Projects\nyear: \"\"\nskills:\n  - Agile methodology\n  - Team collaboration\n  - Project management\n  - Iterative delivery\ntopics:\n  - Scrum and Kanban\n  - Sprint planning and retrospectives\n  - User stories and backlog management\n  - Collaborative development practices\n  - Continuous integration\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to provide insights and practice in software development using contemporary methods to produce software that meets the needs of users and supports an organisation's goals."
+    },
+    {
+      "id": "education/courses/algorithms-and-data-structures-i.md#1",
+      "source": "education/courses/algorithms-and-data-structures-i.md",
+      "category": "education",
+      "content": "---\nid: algorithms-and-data-structures-i\nprogramId: university-of-london-bsc-computer-science\ncourse: Algorithms and Data Structures I\nyear: \"\"\nskills:\n  - Algorithm design\n  - Complexity analysis\n  - Data structure selection\ntopics:\n  - Arrays and linked lists\n  - Stacks and queues\n  - Sorting algorithms\n  - Searching algorithms\n  - Big-O analysis\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to help you to develop your analytical and problem-solving skills, particularly concerning thinking algorithmically. The module will encourage you to start thinking more carefully about the problems you face when programming."
+    },
+    {
+      "id": "education/courses/algorithms-and-data-structures-ii.md#1",
+      "source": "education/courses/algorithms-and-data-structures-ii.md",
+      "category": "education",
+      "content": "---\nid: algorithms-and-data-structures-ii\nprogramId: university-of-london-bsc-computer-science\ncourse: Algorithms and Data Structures II\nyear: \"\"\nskills:\n  - Advanced algorithm design\n  - Graph algorithms\n  - Dynamic programming\n  - Complexity theory\ntopics:\n  - Trees and heaps\n  - Graph traversal and shortest paths\n  - Dynamic programming\n  - Greedy algorithms\n  - NP-completeness\nlinks: []\n---\n\n# Synopsis\n\nAlgorithms and data structures are critical elements of the body of knowledge of computer science. Knowledge of a range of algorithms and data structures will allow you to solve complex computational problems efficiently and choose the right tools for the job."
+    },
+    {
+      "id": "education/courses/artificial-intelligence.md#1",
+      "source": "education/courses/artificial-intelligence.md",
+      "category": "education",
+      "content": "---\nid: artificial-intelligence\nprogramId: university-of-london-bsc-computer-science\ncourse: Artificial Intelligence\nyear: \"\"\nskills:\n  - AI system design\n  - Search and planning\n  - Knowledge representation\n  - Reasoning under uncertainty\ntopics:\n  - Search algorithms\n  - Knowledge representation and ontologies\n  - Probabilistic reasoning\n  - Planning and decision making\n  - AI ethics and societal impact\nlinks: []\n---\n\n# Synopsis\n\nArtificial Intelligence is a long-standing area of interest in computer science research."
+    },
+    {
+      "id": "education/courses/computational-mathematics.md#1",
+      "source": "education/courses/computational-mathematics.md",
+      "category": "education",
+      "content": "---\nid: computational-mathematics\nprogramId: university-of-london-bsc-computer-science\ncourse: Computational Mathematics\nyear: \"\"\nskills:\n  - Mathematical reasoning\n  - Linear algebra\n  - Calculus\n  - Numerical methods\ntopics:\n  - Vectors and matrices\n  - Differentiation and integration\n  - Probability\n  - Mathematical proofs\nlinks: []\n---\n\n# Synopsis\n\nThis module gives students the opportunity to work on a real epidemiological issue, and to develop and deepen their understanding of epidemiological concepts and skills learned in the mathematical and computational curriculum."
+    },
+    {
+      "id": "education/courses/computer-security.md#1",
+      "source": "education/courses/computer-security.md",
+      "category": "education",
+      "content": "---\nid: computer-security\nprogramId: university-of-london-bsc-computer-science\ncourse: Computer Security\nyear: \"\"\nskills:\n  - Security fundamentals\n  - Threat modelling\n  - Cryptography\n  - Secure coding practices\ntopics:\n  - Authentication and authorisation\n  - Cryptography and encryption\n  - Network security\n  - Common vulnerabilities and attacks\n  - Security policies and risk management\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to provide you with an understanding of the need for computer security and the technologies that support it."
+    },
+    {
+      "id": "education/courses/data-science.md#1",
+      "source": "education/courses/data-science.md",
+      "category": "education",
+      "content": "---\nid: data-science\nprogramId: university-of-london-bsc-computer-science\ncourse: Data Science\nyear: \"\"\nskills:\n  - Data science workflow\n  - Statistical analysis\n  - Machine learning application\n  - Data visualisation\ntopics:\n  - Exploratory data analysis\n  - Statistical inference\n  - Supervised and unsupervised ML in practice\n  - Data visualisation and storytelling\n  - Reproducible research and pipelines\nlinks: []\n---\n\n# Synopsis\n\nData science is a significant subfield in computer science. Data science has many application areas ranging from medicine to climate science and business analytics."
+    },
+    {
+      "id": "education/courses/databases-and-advanced-data-techniques.md#1",
+      "source": "education/courses/databases-and-advanced-data-techniques.md",
+      "category": "education",
+      "content": "---\nid: databases-and-advanced-data-techniques\nprogramId: university-of-london-bsc-computer-science\ncourse: Databases and Advanced Data Techniques\nyear: \"\"\nskills:\n  - Advanced SQL\n  - NoSQL databases\n  - Data warehousing\n  - Query optimisation\ntopics:\n  - Advanced relational queries and optimisation\n  - NoSQL and document databases\n  - Data warehousing and OLAP\n  - Transactions and concurrency\n  - Big data storage patterns\nlinks: []\n---\n\n# Synopsis\n\nBy taking this module, you will gain a data science skillset. Databases and data services form the basis of many of the computer systems we use today."
+    },
+    {
+      "id": "education/courses/databases-networks-and-the-web.md#1",
+      "source": "education/courses/databases-networks-and-the-web.md",
+      "category": "education",
+      "content": "---\nid: databases-networks-and-the-web\nprogramId: university-of-london-bsc-computer-science\ncourse: Databases, Networks and the Web\nyear: \"\"\nskills:\n  - SQL\n  - Relational databases\n  - Networking fundamentals\n  - Web architecture\ntopics:\n  - Relational database design\n  - SQL queries and transactions\n  - TCP/IP and HTTP\n  - Client-server architecture\n  - REST APIs\nlinks: []\n---\n\n# Synopsis\n\nIn this module, you will learn theory and practical skills focused on the modern web, internet and client-server applications. You will learn about relational database systems and how to use SQL to create and query databases."
+    },
+    {
+      "id": "education/courses/discrete-mathematics.md#1",
+      "source": "education/courses/discrete-mathematics.md",
+      "category": "education",
+      "content": "---\nid: discrete-mathematics\nprogramId: university-of-london-bsc-computer-science\ncourse: Discrete Mathematics\nyear: \"\"\nskills:\n  - Logical reasoning\n  - Set theory\n  - Combinatorics\n  - Graph theory\ntopics:\n  - Boolean logic\n  - Propositional and predicate logic\n  - Sets and relations\n  - Graphs and trees\n  - Counting and combinatorics\nlinks: []\n---\n\n# Synopsis\n\nThis module helps you to hone your skills in thinking abstractly. It also introduces you to many of the standard discrete models used to help understand and design computational systems."
+    },
+    {
+      "id": "education/courses/fundamentals-of-computer-science.md#1",
+      "source": "education/courses/fundamentals-of-computer-science.md",
+      "category": "education",
+      "content": "---\nid: fundamentals-of-computer-science\nprogramId: university-of-london-bsc-computer-science\ncourse: Fundamentals of Computer Science\nyear: \"\"\nskills:\n  - Computational theory\n  - Automata theory\n  - Complexity analysis\ntopics:\n  - Turing machines\n  - Finite automata\n  - Formal languages\n  - Computability\n  - Big-O complexity\nlinks: []\n---\n\n# Synopsis\n\nBy taking this module, you will gain a broad understanding of many of the key topic areas in computer science and the fundamental concepts that underpin them."
+    },
+    {
+      "id": "education/courses/graphics-programming.md#1",
+      "source": "education/courses/graphics-programming.md",
+      "category": "education",
+      "content": "---\nid: graphics-programming\nprogramId: university-of-london-bsc-computer-science\ncourse: Graphics Programming\nyear: \"\"\nskills:\n  - Graphics rendering\n  - 2D and 3D graphics\n  - Shader programming\n  - Mathematical geometry\ntopics:\n  - Coordinate systems and transformations\n  - Rasterisation and ray tracing\n  - Shaders and the GPU pipeline\n  - Lighting and materials\n  - WebGL or OpenGL fundamentals\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to show you how to work with images in a variety of ways. You will learn how to synthesise graphics and how to process visual signals."
+    },
+    {
+      "id": "education/courses/how-computers-work.md#1",
+      "source": "education/courses/how-computers-work.md",
+      "category": "education",
+      "content": "---\nid: how-computers-work\nprogramId: university-of-london-bsc-computer-science\ncourse: How Computers Work\nyear: \"\"\nskills:\n  - Computer architecture\n  - Systems understanding\n  - Hardware fundamentals\ntopics:\n  - CPU and memory\n  - Binary and number systems\n  - Operating systems\n  - Input/output systems\n  - Networking basics\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to help you understand, and to interact with, computer systems. You will learn how to use knowledge about computational processes to analyse and explain the behaviour of computer systems."
+    },
+    {
+      "id": "education/courses/intelligent-signal-processing.md#1",
+      "source": "education/courses/intelligent-signal-processing.md",
+      "category": "education",
+      "content": "---\nid: intelligent-signal-processing\nprogramId: university-of-london-bsc-computer-science\ncourse: Intelligent Signal Processing\nyear: \"\"\nskills:\n  - Signal processing\n  - Audio and sensor data analysis\n  - Feature extraction\n  - Applied machine learning\ntopics:\n  - Fourier transforms and frequency analysis\n  - Audio signal processing\n  - Feature extraction from signals\n  - ML applied to signal data\n  - Noise reduction and filtering\nlinks: []\n---\n\n# Synopsis\n\nThis module builds on other topics in the computer science programme such as computer graphics, data representation and artificial intelligence. It provides you with an advanced understanding of signal processing techniques and their application to intelligent systems."
+    },
+    {
+      "id": "education/courses/intro-to-programming-i.md#1",
+      "source": "education/courses/intro-to-programming-i.md",
+      "category": "education",
+      "content": "---\nid: intro-to-programming-i\nprogramId: university-of-london-bsc-computer-science\ncourse: Introduction to Programming I\nyear: \"\"\nskills:\n  - Programming fundamentals\n  - Problem decomposition\n  - Computational thinking\ntopics:\n  - Variables and data types\n  - Control flow\n  - Functions\n  - Basic algorithms\nlinks: []\n---\n\n# Synopsis\n\nThis module is focused on basic programming techniques. By taking this module, you will learn how to use the basic elements of computer programming such as variables, conditionals, loops, and functions to solve problems."
+    },
+    {
+      "id": "education/courses/intro-to-programming-ii.md#1",
+      "source": "education/courses/intro-to-programming-ii.md",
+      "category": "education",
+      "content": "---\nid: intro-to-programming-ii\nprogramId: university-of-london-bsc-computer-science\ncourse: Introduction to Programming II\nyear: \"\"\nskills:\n  - Intermediate programming\n  - Modular design\n  - Debugging\ntopics:\n  - Lists and collections\n  - File I/O\n  - Recursion\n  - Basic data structures\nlinks: []\n---\n\n# Synopsis\n\nThis module is focused on adding to the basic programming skill set you developed in Introduction to Programming I and giving you experience working with existing code and larger programs."
+    },
+    {
+      "id": "education/courses/machine-learning-and-neural-networks.md#1",
+      "source": "education/courses/machine-learning-and-neural-networks.md",
+      "category": "education",
+      "content": "---\nid: machine-learning-and-neural-networks\nprogramId: university-of-london-bsc-computer-science\ncourse: Machine Learning and Neural Networks\nyear: \"\"\nskills:\n  - Machine learning\n  - Neural network design\n  - Model training and evaluation\n  - Deep learning fundamentals\ntopics:\n  - Supervised and unsupervised learning\n  - Neural network architectures\n  - Backpropagation and gradient descent\n  - Overfitting and regularisation\n  - Convolutional and recurrent networks\nlinks: []\n---\n\n# Synopsis\n\nMachine learning and neural networks provide means for computer systems to extract useful information out of data. These techniques are widely used in the technology industry for a variety of applications, for example recommending music and products to people, identifying faces in photos and predicting trends in financial markets."
+    },
+    {
+      "id": "education/courses/natural-language-processing.md#1",
+      "source": "education/courses/natural-language-processing.md",
+      "category": "education",
+      "content": "---\nid: natural-language-processing\nprogramId: university-of-london-bsc-computer-science\ncourse: Natural Language Processing\nyear: \"\"\nskills:\n  - NLP\n  - Text processing\n  - Language modelling\n  - Transformer architecture understanding\ntopics:\n  - Tokenisation and text preprocessing\n  - Language models and embeddings\n  - Sentiment analysis and classification\n  - Named entity recognition\n  - Transformer models and attention mechanisms\nlinks: []\n---\n\n# Synopsis\n\nNatural language processing (NLP) is a crucial target for the application of computer science techniques."
+    },
+    {
+      "id": "education/courses/object-oriented-programming.md#1",
+      "source": "education/courses/object-oriented-programming.md",
+      "category": "education",
+      "content": "---\nid: object-oriented-programming\nprogramId: university-of-london-bsc-computer-science\ncourse: Object-oriented Programming\nyear: \"\"\nskills:\n  - Object-oriented design\n  - Encapsulation\n  - Inheritance and polymorphism\n  - Design patterns\ntopics:\n  - Classes and objects\n  - Inheritance and interfaces\n  - Polymorphism\n  - Encapsulation and abstraction\n  - Common design patterns\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to provide you with an object-oriented programming skill set. You will learn what objects and classes are and how to write your own classes. You will see how to use the object-oriented features of a programming language to create well-structured programs."
+    },
+    {
+      "id": "education/courses/professional-practice-for-computer-scientists.md#1",
+      "source": "education/courses/professional-practice-for-computer-scientists.md",
+      "category": "education",
+      "content": "---\nid: professional-practice-for-computer-scientists\nprogramId: university-of-london-bsc-computer-science\ncourse: Professional Practice for Computer Scientists\nyear: \"\"\nskills:\n  - Professional ethics\n  - Communication\n  - Career development\n  - Research skills\ntopics:\n  - Ethics in computing\n  - Intellectual property and law\n  - Professional codes of conduct\n  - Research methodology\n  - Career and industry awareness\nlinks: []\n---\n\n# Synopsis\n\nThis module prepares you for post-graduation computing careers by enhancing your technical education with broader professional skills."
+    },
+    {
+      "id": "education/courses/programming-with-data.md#1",
+      "source": "education/courses/programming-with-data.md",
+      "category": "education",
+      "content": "---\nid: programming-with-data\nprogramId: university-of-london-bsc-computer-science\ncourse: Programming with Data\nyear: \"\"\nskills:\n  - Data manipulation\n  - Data analysis\n  - Python\n  - Scripting\ntopics:\n  - Data cleaning and transformation\n  - Working with APIs and files\n  - Statistical summaries\n  - Data visualization\n  - Pandas and NumPy\nlinks: []\n---\n\n# Synopsis\n\nThis module prepares you for technology jobs of the future using creative interactive approaches. It focuses on using programming to work with data — cleaning, transforming, analysing, and visualising datasets to extract meaningful insights."
+    },
+    {
+      "id": "education/courses/software-design-and-development.md#1",
+      "source": "education/courses/software-design-and-development.md",
+      "category": "education",
+      "content": "---\nid: software-design-and-development\nprogramId: university-of-london-bsc-computer-science\ncourse: Software Design and Development\nyear: \"\"\nskills:\n  - Software architecture\n  - Requirements analysis\n  - Testing strategies\n  - Version control\ntopics:\n  - Software development lifecycle\n  - Requirements and specifications\n  - Architectural patterns\n  - Testing and quality assurance\n  - Version control with Git\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to advance your software development skills so that you can write more robust and complicated programs. You will learn how to use a range of programming tools and techniques that are fundamental to professional software development."
+    },
+    {
+      "id": "education/courses/web-development.md#1",
+      "source": "education/courses/web-development.md",
+      "category": "education",
+      "content": "---\nid: web-development\nprogramId: university-of-london-bsc-computer-science\ncourse: Web Development\nyear: \"\"\nskills:\n  - HTML\n  - CSS\n  - JavaScript\n  - Responsive design\n  - Web standards\ntopics:\n  - HTML structure and semantics\n  - CSS layout and styling\n  - JavaScript and the DOM\n  - Forms and accessibility\n  - Responsive and mobile-first design\nlinks: []\n---\n\n# Synopsis\n\nThis module aims to provide you with a foundational web development skill set."
+    },
+    {
+      "id": "education/simon-fraser-university-mathematics-cs.md#1",
+      "source": "education/simon-fraser-university-mathematics-cs.md",
+      "category": "education",
+      "content": "---\nid: simon-fraser-university-mathematics-cs\nprogram: Mathematics and Computer Science\ninstitution: Simon Fraser University\nstartDate: 1999\nendDate: 2000\nskills:\n  - Mathematics\n  - Computer science\n  - Logical reasoning\n  - Problem solving\nlinks: []\ncourseIds: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Description\n\nStudies in mathematics and computer science at Simon Fraser University, building early foundations in logical reasoning, mathematical thinking, and computational concepts."
+    },
+    {
+      "id": "education/simon-fraser-university-mathematics-cs.md#2",
+      "source": "education/simon-fraser-university-mathematics-cs.md",
+      "category": "education",
+      "content": "---\nid: simon-fraser-university-mathematics-cs\nprogram: Mathematics and Computer Science\ninstitution: Simon Fraser University\nstartDate: 1999\nendDate: 2000\nskills:\n  - Mathematics\n  - Computer science\n  - Logical reasoning\n  - Problem solving\nlinks: []\ncourseIds: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Comments\n\nThis early exposure to formal math and computer science planted the seeds for a long career in software development and a later return to formal CS study at the University of London."
+    },
+    {
+      "id": "education/university-of-london-bsc-computer-science.md#1",
+      "source": "education/university-of-london-bsc-computer-science.md",
+      "category": "education",
+      "content": "---\nid: university-of-london-bsc-computer-science\nprogram: BSc Computer Science (Machine Learning and Artificial Intelligence)\ninstitution: University of London\nstartDate: 2021-04\nendDate: null\nskills:\n  - Machine learning\n  - Artificial intelligence\n  - Data extraction and analysis\n  - Recommender systems\n  - Computer vision\n  - Predictive modelling\n  - Software engineering\n  - Algorithms\n  - Data structures\n  - Computer science theory\nlinks: []\ncourseIds:\n  - intro-to-programming-i\n  - intro-to-programming-ii\n  - computational-mathematics\n  - discrete-mathematics\n  - fundamentals-of-computer-science\n  - how-computers-work\n  - algorithms-and-data-structures-i\n  - web-development\n  - object-oriented-programming\n  - software-design-and-development\n  - programming-with-data\n  - agile-software-projects\n  - computer-security\n  - graphics-programming\n  - algorithms-and-data-structures-ii\n  - databases-networks-and-the-web\n  - professional-practice-for-computer-scientists\n  - databases-and-advanced-data-techniques\n  - machine-learning-and-neural-networks\n  - artificial-intelligence\n  - intelligent-signal-processing\n  - natural-language-processing\n  - data-science\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Description\n\nAn in-progress BSc Computer Science with a specialization in Machine Learning and Artificial Intelligence. Machine learning provides a means for computer systems to extract useful information from data — techniques widely used across technology, finance, medicine, education, video games, engineering, and creative fields like music. The program prepares graduates for technical, problem-solving roles in a rapidly growing area, with a typical target title of machine learning engineer. It bridges theoretical computer science with applied AI engineering, covering areas such as recommender systems, computer vision, predictive modelling, and emerging AI application domains."
+    },
+    {
+      "id": "education/university-of-london-bsc-computer-science.md#2",
+      "source": "education/university-of-london-bsc-computer-science.md",
+      "category": "education",
+      "content": "---\nid: university-of-london-bsc-computer-science\nprogram: BSc Computer Science (Machine Learning and Artificial Intelligence)\ninstitution: University of London\nstartDate: 2021-04\nendDate: null\nskills:\n  - Machine learning\n  - Artificial intelligence\n  - Data extraction and analysis\n  - Recommender systems\n  - Computer vision\n  - Predictive modelling\n  - Software engineering\n  - Algorithms\n  - Data structures\n  - Computer science theory\nlinks: []\ncourseIds:\n  - intro-to-programming-i\n  - intro-to-programming-ii\n  - computational-mathematics\n  - discrete-mathematics\n  - fundamentals-of-computer-science\n  - how-computers-work\n  - algorithms-and-data-structures-i\n  - web-development\n  - object-oriented-programming\n  - software-design-and-development\n  - programming-with-data\n  - agile-software-projects\n  - computer-security\n  - graphics-programming\n  - algorithms-and-data-structures-ii\n  - databases-networks-and-the-web\n  - professional-practice-for-computer-scientists\n  - databases-and-advanced-data-techniques\n  - machine-learning-and-neural-networks\n  - artificial-intelligence\n  - intelligent-signal-processing\n  - natural-language-processing\n  - data-science\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Comments\n\nExpected completion October 2027. Pursuing this degree to complement 15+ years of frontend architecture experience with a formal foundation in AI and ML, enabling a more principled approach to building agentic and intelligent systems."
+    },
+    {
+      "id": "education/university-of-the-fraser-valley-fashion-design.md#1",
+      "source": "education/university-of-the-fraser-valley-fashion-design.md",
+      "category": "education",
+      "content": "---\nid: university-of-the-fraser-valley-fashion-design\nprogram: Fashion Design\ninstitution: University of the Fraser Valley\nstartDate: 2000\nendDate: 2003\nskills:\n  - Design\n  - Construction\n  - Illustration\n  - Drafting\nlinks: []\ncourseIds: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Description\n\nA program in fashion design covering design principles, construction techniques, illustration, and drafting. Developed strong visual and spatial reasoning skills with a focus on bringing creative concepts to life through structured craft."
+    },
+    {
+      "id": "education/university-of-the-fraser-valley-fashion-design.md#2",
+      "source": "education/university-of-the-fraser-valley-fashion-design.md",
+      "category": "education",
+      "content": "---\nid: university-of-the-fraser-valley-fashion-design\nprogram: Fashion Design\ninstitution: University of the Fraser Valley\nstartDate: 2000\nendDate: 2003\nskills:\n  - Design\n  - Construction\n  - Illustration\n  - Drafting\nlinks: []\ncourseIds: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Comments\n\nThe design foundation from this program — particularly the emphasis on visual communication, construction thinking, and making things look and feel right — has carried forward into frontend and UX work throughout my career."
+    },
+    {
+      "id": "faqs/what-kind-of-roles-are-you-looking-for.md#1",
+      "source": "faqs/what-kind-of-roles-are-you-looking-for.md",
+      "category": "faqs",
+      "content": "---\nid: what-kind-of-roles-are-you-looking-for\nquestion: What kind of roles are you most interested in right now?\nlinks:\n  - https://example.com/resume\narchived: false\ncreatedAt: 2026-05-21T09:25:00-04:00\nupdatedAt: 2026-05-21T09:25:00-04:00\n---\n\n# Answer\n\nI am most interested in roles where product thinking, communication, and engineering execution overlap. That usually means work involving front-end systems, developer experience, AI-assisted tools, content-rich products, or internal platforms that need strong clarity and structure."
+    },
+    {
+      "id": "faqs/what-makes-you-different.md#1",
+      "source": "faqs/what-makes-you-different.md",
+      "category": "faqs",
+      "content": "---\nid: what-makes-you-different\nquestion: What makes you different from other candidates with a similar technical background?\nlinks:\n  - https://example.com/portfolio\n  - https://example.com/case-study\narchived: false\ncreatedAt: 2026-05-21T09:27:00-04:00\nupdatedAt: 2026-05-21T09:27:00-04:00\n---\n\n# Answer\n\nOne difference is that I do not think about software purely as implementation. I tend to connect strategy, writing, structure, interface design, and engineering in the same workflow, which makes me especially effective on products that need both strong thinking and strong execution."
+    },
+    {
+      "id": "interests/ai-product-design.md#1",
+      "source": "interests/ai-product-design.md",
+      "category": "interests",
+      "content": "---\nid: ai-product-design\ninterestName: AI Product Design\nlinks:\n  - https://example.com/notes/ai-product-design\n  - https://example.com/talks/ai-ux\narchived: false\ncreatedAt: 2026-05-21T09:20:00-04:00\nupdatedAt: 2026-05-21T09:20:00-04:00\n---\n\n# Description\n\nAn interest in how AI systems can be shaped into useful, trustworthy products instead of novelty demos."
+    },
+    {
+      "id": "interests/ai-product-design.md#2",
+      "source": "interests/ai-product-design.md",
+      "category": "interests",
+      "content": "---\nid: ai-product-design\ninterestName: AI Product Design\nlinks:\n  - https://example.com/notes/ai-product-design\n  - https://example.com/talks/ai-ux\narchived: false\ncreatedAt: 2026-05-21T09:20:00-04:00\nupdatedAt: 2026-05-21T09:20:00-04:00\n---\n\n# Why It Is Interesting\n\nIt sits at the intersection of strategy, interface design, system behavior, and human trust. The challenge is not just what the model can do, but how the experience makes that capability understandable and reliable."
+    },
+    {
+      "id": "interests/ai-product-design.md#3",
+      "source": "interests/ai-product-design.md",
+      "category": "interests",
+      "content": "---\nid: ai-product-design\ninterestName: AI Product Design\nlinks:\n  - https://example.com/notes/ai-product-design\n  - https://example.com/talks/ai-ux\narchived: false\ncreatedAt: 2026-05-21T09:20:00-04:00\nupdatedAt: 2026-05-21T09:20:00-04:00\n---\n\n# How Or Why Did You Start\n\nThis grew out of a long-standing interest in product clarity and communication, and became much stronger when LLM tooling made it possible to prototype assistant workflows directly."
+    },
+    {
+      "id": "interests/ai-product-design.md#4",
+      "source": "interests/ai-product-design.md",
+      "category": "interests",
+      "content": "---\nid: ai-product-design\ninterestName: AI Product Design\nlinks:\n  - https://example.com/notes/ai-product-design\n  - https://example.com/talks/ai-ux\narchived: false\ncreatedAt: 2026-05-21T09:20:00-04:00\nupdatedAt: 2026-05-21T09:20:00-04:00\n---\n\n# What Would You Love To Do With It\n\nDesign and ship AI products that help people think better, present themselves more clearly, and turn messy personal knowledge into usable systems."
+    },
+    {
+      "id": "interests/photography.md#1",
+      "source": "interests/photography.md",
+      "category": "interests",
+      "content": "---\nid: photography\ninterestName: Photography\nlinks:\n  - https://example.com/photos\narchived: false\ncreatedAt: 2026-05-21T09:22:00-04:00\nupdatedAt: 2026-05-21T09:22:00-04:00\n---\n\n# Description\n\nAn interest in visual composition, observation, and the craft of telling stories through images."
+    },
+    {
+      "id": "interests/photography.md#2",
+      "source": "interests/photography.md",
+      "category": "interests",
+      "content": "---\nid: photography\ninterestName: Photography\nlinks:\n  - https://example.com/photos\narchived: false\ncreatedAt: 2026-05-21T09:22:00-04:00\nupdatedAt: 2026-05-21T09:22:00-04:00\n---\n\n# Why It Is Interesting\n\nPhotography trains attention. It encourages noticing detail, structure, mood, and perspective in a way that carries over into design and communication work."
+    },
+    {
+      "id": "interests/photography.md#3",
+      "source": "interests/photography.md",
+      "category": "interests",
+      "content": "---\nid: photography\ninterestName: Photography\nlinks:\n  - https://example.com/photos\narchived: false\ncreatedAt: 2026-05-21T09:22:00-04:00\nupdatedAt: 2026-05-21T09:22:00-04:00\n---\n\n# How Or Why Did You Start\n\nIt started as a curiosity about framing and visual storytelling, then became a way to explore how images communicate emotion and meaning quickly."
+    },
+    {
+      "id": "interests/photography.md#4",
+      "source": "interests/photography.md",
+      "category": "interests",
+      "content": "---\nid: photography\ninterestName: Photography\nlinks:\n  - https://example.com/photos\narchived: false\ncreatedAt: 2026-05-21T09:22:00-04:00\nupdatedAt: 2026-05-21T09:22:00-04:00\n---\n\n# What Would You Love To Do With It\n\nCreate a stronger body of visual work that connects product storytelling, portraiture, and documentary-style observation."
+    },
+    {
+      "id": "work-history/ikea-canada-range-administration.md#1",
+      "source": "work-history/ikea-canada-range-administration.md",
+      "category": "work-history",
+      "content": "---\nid: ikea-canada-range-administration\ntitle: Range Administration\ncompany: IKEA Canada\nstartDate: 2005-04\nendDate: 2006-12\nclients: []\ntechnologies:\n  - Database management tools\n  - Intranet platforms\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Responsibilities\n\n- Built and maintained sales reporting tools.\n- Managed numerous integrated databases and inventory management tools.\n- Maintained and developed the company Intranet.\n- Managed distribution of discontinued stock.\n- Conducted pricing exercises.\n- Monitored competition."
+    },
+    {
+      "id": "work-history/ikea-canada-range-administration.md#2",
+      "source": "work-history/ikea-canada-range-administration.md",
+      "category": "work-history",
+      "content": "---\nid: ikea-canada-range-administration\ntitle: Range Administration\ncompany: IKEA Canada\nstartDate: 2005-04\nendDate: 2006-12\nclients: []\ntechnologies:\n  - Database management tools\n  - Intranet platforms\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Successes\n\n- Built internal reporting and inventory tools that supported operations across the range administration function.\n- Maintained and improved the company Intranet as a key internal communication resource."
+    },
+    {
+      "id": "work-history/ikea-canada-sales-coworker.md#1",
+      "source": "work-history/ikea-canada-sales-coworker.md",
+      "category": "work-history",
+      "content": "---\nid: ikea-canada-sales-coworker\ntitle: Sales Coworker\ncompany: IKEA Canada\nstartDate: 2002-01\nendDate: 2005-04\nclients: []\ntechnologies:\n  - Microsoft Excel\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Responsibilities\n\n- Assisted customers and performed daily tasks on the sales floor.\n- Developed Excel tools to analyze customer movement paths, sales models, profit margins, and scheduling.\n- Played a key role in building new IKEA stores in Edmonton, Vaughan, and Calgary by leading teams of new coworkers."
+    },
+    {
+      "id": "work-history/ikea-canada-sales-coworker.md#2",
+      "source": "work-history/ikea-canada-sales-coworker.md",
+      "category": "work-history",
+      "content": "---\nid: ikea-canada-sales-coworker\ntitle: Sales Coworker\ncompany: IKEA Canada\nstartDate: 2002-01\nendDate: 2005-04\nclients: []\ntechnologies:\n  - Microsoft Excel\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Successes\n\n- Led teams of new coworkers during the opening of three new IKEA store locations.\n- Built analytical Excel tools to support sales floor decision-making and performance tracking."
+    },
+    {
+      "id": "work-history/ikea-canada-web-communications-manager.md#1",
+      "source": "work-history/ikea-canada-web-communications-manager.md",
+      "category": "work-history",
+      "content": "---\nid: ikea-canada-web-communications-manager\ntitle: Web Communications Manager\ncompany: IKEA Canada\nstartDate: 2006-12\nendDate: 2012-05\nclients: []\ntechnologies:\n  - Flash\n  - JavaScript\n  - Email marketing platforms\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Responsibilities\n\n- Developed web strategy to meet local and global objectives.\n- Managed the bilingual IKEA.ca website.\n- Provided management and guidance for the Webmaster role.\n- Maintained relationships with numerous agencies and suppliers.\n- Developed custom tools for IKEA.ca in Flash and JavaScript.\n- Distributed email marketing materials and grew the recipient list.\n- Assisted global partners with troubleshooting."
+    },
+    {
+      "id": "work-history/ikea-canada-web-communications-manager.md#2",
+      "source": "work-history/ikea-canada-web-communications-manager.md",
+      "category": "work-history",
+      "content": "---\nid: ikea-canada-web-communications-manager\ntitle: Web Communications Manager\ncompany: IKEA Canada\nstartDate: 2006-12\nendDate: 2012-05\nclients: []\ntechnologies:\n  - Flash\n  - JavaScript\n  - Email marketing platforms\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Successes\n\n- Managed and evolved IKEA.ca as a bilingual digital presence serving Canadian customers at scale.\n- Built custom web tools in Flash and JavaScript to support digital marketing and product presentation.\n- Grew the email marketing program recipient list over the course of the role."
+    },
+    {
+      "id": "work-history/ikea-canada-web-communications-manager.md#3",
+      "source": "work-history/ikea-canada-web-communications-manager.md",
+      "category": "work-history",
+      "content": "---\nid: ikea-canada-web-communications-manager\ntitle: Web Communications Manager\ncompany: IKEA Canada\nstartDate: 2006-12\nendDate: 2012-05\nclients: []\ntechnologies:\n  - Flash\n  - JavaScript\n  - Email marketing platforms\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Lessons Learned\n\n- Managing a large brand's digital presence requires balancing global standards with local market relevance.\n- Strong supplier and agency relationships are critical when operating without a large in-house team."
+    },
+    {
+      "id": "work-history/link-digital-lead-developer.md#1",
+      "source": "work-history/link-digital-lead-developer.md",
+      "category": "work-history",
+      "content": "---\nid: link-digital-lead-developer\ntitle: Lead Developer\ncompany: Link Digital Canada\nstartDate: 2012-01\nendDate: 2015-08\nclients:\n  - IKEA Canada\n  - ICLEI Canada\n  - Big Time Design\n  - OptMeIn Communications\ntechnologies:\n  - Joomla\n  - JavaScript\n  - PHP\n  - Rackspace\n  - Amazon EC2\n  - Amazon S3\n  - DNS management\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Responsibilities\n\n- Sole developer at a Toronto-based startup development shop specializing in social-driven websites and applications.\n- Managed CMS installations and customizations for clients including IKEA Canada.\n- Built social voting applications and massive custom Joomla components.\n- Designed and delivered responsive websites.\n- Managed cloud server infrastructures and DNS systems on Rackspace, Amazon EC2/S3, and Canadian suppliers Atum and Rackforce."
+    },
+    {
+      "id": "work-history/link-digital-lead-developer.md#2",
+      "source": "work-history/link-digital-lead-developer.md",
+      "category": "work-history",
+      "content": "---\nid: link-digital-lead-developer\ntitle: Lead Developer\ncompany: Link Digital Canada\nstartDate: 2012-01\nendDate: 2015-08\nclients:\n  - IKEA Canada\n  - ICLEI Canada\n  - Big Time Design\n  - OptMeIn Communications\ntechnologies:\n  - Joomla\n  - JavaScript\n  - PHP\n  - Rackspace\n  - Amazon EC2\n  - Amazon S3\n  - DNS management\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Projects\n\n- IKEA Canada CMS management and custom tooling.\n- Social voting applications for client campaigns.\n- Custom Joomla component development for complex content management requirements.\n- Cloud server infrastructure management across Rackspace, Amazon EC2/S3, Atum, and Rackforce."
+    },
+    {
+      "id": "work-history/link-digital-lead-developer.md#3",
+      "source": "work-history/link-digital-lead-developer.md",
+      "category": "work-history",
+      "content": "---\nid: link-digital-lead-developer\ntitle: Lead Developer\ncompany: Link Digital Canada\nstartDate: 2012-01\nendDate: 2015-08\nclients:\n  - IKEA Canada\n  - ICLEI Canada\n  - Big Time Design\n  - OptMeIn Communications\ntechnologies:\n  - Joomla\n  - JavaScript\n  - PHP\n  - Rackspace\n  - Amazon EC2\n  - Amazon S3\n  - DNS management\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Successes\n\n- Built and maintained cloud server infrastructure for multiple clients simultaneously.\n- Delivered a wide variety of project types independently, from CMS customization to custom application development."
+    },
+    {
+      "id": "work-history/link-digital-lead-developer.md#4",
+      "source": "work-history/link-digital-lead-developer.md",
+      "category": "work-history",
+      "content": "---\nid: link-digital-lead-developer\ntitle: Lead Developer\ncompany: Link Digital Canada\nstartDate: 2012-01\nendDate: 2015-08\nclients:\n  - IKEA Canada\n  - ICLEI Canada\n  - Big Time Design\n  - OptMeIn Communications\ntechnologies:\n  - Joomla\n  - JavaScript\n  - PHP\n  - Rackspace\n  - Amazon EC2\n  - Amazon S3\n  - DNS management\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Lessons Learned\n\n- Running a solo development shop requires strong scope management and client communication alongside technical execution.\n- Managing cloud infrastructure alongside product development provides a useful systems-level perspective."
+    },
+    {
+      "id": "work-history/publicis-sapient-senior-manager.md#1",
+      "source": "work-history/publicis-sapient-senior-manager.md",
+      "category": "work-history",
+      "content": "---\nid: publicis-sapient-senior-manager\ntitle: Senior Manager\ncompany: Publicis Sapient\nstartDate: 2017-11\nendDate: null\nclients:\n  - Healthcare vertical (current)\n  - Finance\n  - Retail\n  - Automotive\ntechnologies:\n  - ReactJS\n  - NextJS\n  - AngularJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\n  - Python\n  - LangChain\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Responsibilities\n\n- Lead multidisciplinary teams delivering complex enterprise-grade frontend applications using ReactJS, NextJS, AngularJS, and NodeJS.\n- Specialize in integrating advanced frontend solutions with Adobe Experience Manager (AEM) to create seamless, performant digital experiences.\n- Manage the full software development lifecycle including architecture, coding, testing, version control, Agile ceremonies, and release management.\n- Mentor developers in architectural thinking, change management, conflict resolution, and core coding principles.\n- Advocate for inclusivity and diversity in team culture and hiring practices.\n- Designed and implemented the frontend hiring assessment system at Publicis Sapient to create a more transparent and bias-reduced screening process.\n- Explore AI and agentic systems to accelerate innovation, reduce developer toil, and unlock smarter design patterns."
+    },
+    {
+      "id": "work-history/publicis-sapient-senior-manager.md#2",
+      "source": "work-history/publicis-sapient-senior-manager.md",
+      "category": "work-history",
+      "content": "---\nid: publicis-sapient-senior-manager\ntitle: Senior Manager\ncompany: Publicis Sapient\nstartDate: 2017-11\nendDate: null\nclients:\n  - Healthcare vertical (current)\n  - Finance\n  - Retail\n  - Automotive\ntechnologies:\n  - ReactJS\n  - NextJS\n  - AngularJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\n  - Python\n  - LangChain\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Projects\n\n- Designed and implemented the Publicis Sapient frontend hiring assessment system, improving hire quality while reducing bias in candidate screening.\n- Led frontend architecture and delivery across healthcare, finance, retail, and automotive client verticals."
+    },
+    {
+      "id": "work-history/publicis-sapient-senior-manager.md#3",
+      "source": "work-history/publicis-sapient-senior-manager.md",
+      "category": "work-history",
+      "content": "---\nid: publicis-sapient-senior-manager\ntitle: Senior Manager\ncompany: Publicis Sapient\nstartDate: 2017-11\nendDate: null\nclients:\n  - Healthcare vertical (current)\n  - Finance\n  - Retail\n  - Automotive\ntechnologies:\n  - ReactJS\n  - NextJS\n  - AngularJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\n  - Python\n  - LangChain\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Successes\n\n- Built a frontend hiring assessment system now used company-wide, elevating hire quality and promoting fairness.\n- Successfully led cross-industry initiatives across healthcare, finance, retail, and automotive sectors.\n- Grew from Manager to Senior Manager while expanding scope across disciplines and geographies."
+    },
+    {
+      "id": "work-history/publicis-sapient-senior-manager.md#4",
+      "source": "work-history/publicis-sapient-senior-manager.md",
+      "category": "work-history",
+      "content": "---\nid: publicis-sapient-senior-manager\ntitle: Senior Manager\ncompany: Publicis Sapient\nstartDate: 2017-11\nendDate: null\nclients:\n  - Healthcare vertical (current)\n  - Finance\n  - Retail\n  - Automotive\ntechnologies:\n  - ReactJS\n  - NextJS\n  - AngularJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\n  - Python\n  - LangChain\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Lessons Learned\n\n- Empathetic leadership and inclusive hiring practices produce stronger, more resilient teams.\n- Architectural thinking must be balanced with coaching others to develop their own architectural instincts."
+    },
+    {
+      "id": "work-history/sapientnitro-manager-experience-technology.md#1",
+      "source": "work-history/sapientnitro-manager-experience-technology.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-manager-experience-technology\ntitle: Manager, Experience Technology\ncompany: SapientNitro\nstartDate: 2015-08\nendDate: 2017-11\nclients:\n  - Saks Fifth Avenue\n  - Fiat Chrysler Automobiles (Jeep, Chrysler, Ram Trucks, Dodge, Alfa Romeo)\ntechnologies:\n  - ReactJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Responsibilities\n\n- Led development of modern enterprise-level web applications for major clients in Retail, Automotive, and Finance sectors.\n- Built scalable frontend solutions using ReactJS and NodeJS integrated with Adobe Experience Manager (AEM).\n- Combined hands-on technical leadership with strategic architectural thinking.\n- Mentored teams and fostered collaboration across time zones and disciplines.\n- Managed globally distributed teams across multiple geographies."
+    },
+    {
+      "id": "work-history/sapientnitro-manager-experience-technology.md#2",
+      "source": "work-history/sapientnitro-manager-experience-technology.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-manager-experience-technology\ntitle: Manager, Experience Technology\ncompany: SapientNitro\nstartDate: 2015-08\nendDate: 2017-11\nclients:\n  - Saks Fifth Avenue\n  - Fiat Chrysler Automobiles (Jeep, Chrysler, Ram Trucks, Dodge, Alfa Romeo)\ntechnologies:\n  - ReactJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Projects\n\n- Saks Fifth Avenue: Architected and built a NodeJS-based orchestration layer unifying data from CRM, eCommerce platform, and AEM CMS. The React frontend delivered a rich, dynamic user experience. Later redesigned and rebuilt the platform, which became a core Sapient portfolio offering for connected systems across other clients.\n- Fiat Chrysler Automobiles (now Stellantis): Led a globally distributed team across five geographies to simultaneously launch websites for Jeep, Chrysler, Ram Trucks, Dodge, and Alfa Romeo. Each site was powered by a shared component library and early-stage design system tailored to unique brand themes, including the mission-critical Build & Price configurator."
+    },
+    {
+      "id": "work-history/sapientnitro-manager-experience-technology.md#3",
+      "source": "work-history/sapientnitro-manager-experience-technology.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-manager-experience-technology\ntitle: Manager, Experience Technology\ncompany: SapientNitro\nstartDate: 2015-08\nendDate: 2017-11\nclients:\n  - Saks Fifth Avenue\n  - Fiat Chrysler Automobiles (Jeep, Chrysler, Ram Trucks, Dodge, Alfa Romeo)\ntechnologies:\n  - ReactJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Successes\n\n- The Saks Fifth Avenue NodeJS orchestration platform was adopted as a core Sapient offering, enabling connected systems for multiple subsequent clients.\n- Successfully launched five Fiat Chrysler Automobiles brand websites simultaneously with a globally distributed team.\n- Established shared component library and early design system across five automotive brands."
+    },
+    {
+      "id": "work-history/sapientnitro-manager-experience-technology.md#4",
+      "source": "work-history/sapientnitro-manager-experience-technology.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-manager-experience-technology\ntitle: Manager, Experience Technology\ncompany: SapientNitro\nstartDate: 2015-08\nendDate: 2017-11\nclients:\n  - Saks Fifth Avenue\n  - Fiat Chrysler Automobiles (Jeep, Chrysler, Ram Trucks, Dodge, Alfa Romeo)\ntechnologies:\n  - ReactJS\n  - NodeJS\n  - Adobe Experience Manager (AEM)\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Lessons Learned\n\n- A shared orchestration layer and component library multiplies team velocity across parallel client engagements.\n- Leading distributed global teams requires intentional communication structures and clearly defined ownership."
+    },
+    {
+      "id": "work-history/sapientnitro-senior-interactive-developer.md#1",
+      "source": "work-history/sapientnitro-senior-interactive-developer.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-senior-interactive-developer\ntitle: Senior Interactive Developer\ncompany: SapientNitro\nstartDate: 2014-10\nendDate: 2015-08\nclients:\n  - Harley-Davidson\n  - Loblaw Digital\ntechnologies:\n  - jQuery\n  - RequireJS\n  - Adobe Experience Manager (AEM)\n  - ExpressionEngine CMS\n  - BackboneJS\n  - SAP Hybris\n  - CSS animations\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Responsibilities\n\n- Delivered innovative digital experiences through modern frontend development and CMS integration.\n- Built high-performance components and developed custom integrations for enterprise CMS platforms.\n- Contributed to industry-first digital products in the automotive and retail sectors."
+    },
+    {
+      "id": "work-history/sapientnitro-senior-interactive-developer.md#2",
+      "source": "work-history/sapientnitro-senior-interactive-developer.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-senior-interactive-developer\ntitle: Senior Interactive Developer\ncompany: SapientNitro\nstartDate: 2014-10\nendDate: 2015-08\nclients:\n  - Harley-Davidson\n  - Loblaw Digital\ntechnologies:\n  - jQuery\n  - RequireJS\n  - Adobe Experience Manager (AEM)\n  - ExpressionEngine CMS\n  - BackboneJS\n  - SAP Hybris\n  - CSS animations\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Projects\n\n- Harley-Davidson: Led frontend development for the global multi-lingual website integrated with Adobe Experience Manager (AEM) using jQuery and RequireJS. Developed a custom module loader for the AEM authoring environment. Built several award-winning microsites featuring custom CSS animations, parallax transforms, and streaming video — among the first fully responsive mobile-friendly campaigns of their kind. Extended ExpressionEngine CMS with a custom plugin that automated translation imports from Excel, significantly accelerating localization and content deployment.\n- Loblaw Digital: Helped launch North America's first Click & Collect online grocery store built with jQuery and BackboneJS, powered by the SAP Hybris ecommerce engine. Implemented a custom event emitter pattern to synchronize cart and pricing updates across the site in real time."
+    },
+    {
+      "id": "work-history/sapientnitro-senior-interactive-developer.md#3",
+      "source": "work-history/sapientnitro-senior-interactive-developer.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-senior-interactive-developer\ntitle: Senior Interactive Developer\ncompany: SapientNitro\nstartDate: 2014-10\nendDate: 2015-08\nclients:\n  - Harley-Davidson\n  - Loblaw Digital\ntechnologies:\n  - jQuery\n  - RequireJS\n  - Adobe Experience Manager (AEM)\n  - ExpressionEngine CMS\n  - BackboneJS\n  - SAP Hybris\n  - CSS animations\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Awards\n\n- Award-winning Harley-Davidson microsites recognized for innovative use of responsive design, CSS animation, and streaming video."
+    },
+    {
+      "id": "work-history/sapientnitro-senior-interactive-developer.md#4",
+      "source": "work-history/sapientnitro-senior-interactive-developer.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-senior-interactive-developer\ntitle: Senior Interactive Developer\ncompany: SapientNitro\nstartDate: 2014-10\nendDate: 2015-08\nclients:\n  - Harley-Davidson\n  - Loblaw Digital\ntechnologies:\n  - jQuery\n  - RequireJS\n  - Adobe Experience Manager (AEM)\n  - ExpressionEngine CMS\n  - BackboneJS\n  - SAP Hybris\n  - CSS animations\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Successes\n\n- Delivered North America's first Click & Collect online grocery store for Loblaw Digital, setting the foundation for modern grocery eCommerce platforms.\n- Automated Harley-Davidson's translation workflow with a custom ExpressionEngine plugin, significantly reducing localization time.\n- Built custom AEM module loader to meet complex authoring requirements at Harley-Davidson."
+    },
+    {
+      "id": "work-history/sapientnitro-senior-interactive-developer.md#5",
+      "source": "work-history/sapientnitro-senior-interactive-developer.md",
+      "category": "work-history",
+      "content": "---\nid: sapientnitro-senior-interactive-developer\ntitle: Senior Interactive Developer\ncompany: SapientNitro\nstartDate: 2014-10\nendDate: 2015-08\nclients:\n  - Harley-Davidson\n  - Loblaw Digital\ntechnologies:\n  - jQuery\n  - RequireJS\n  - Adobe Experience Manager (AEM)\n  - ExpressionEngine CMS\n  - BackboneJS\n  - SAP Hybris\n  - CSS animations\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Lessons Learned\n\n- Custom event emitter patterns can elegantly solve real-time state synchronization problems without a heavy framework.\n- CMS authoring experience is often as important as the customer-facing result — investing in authoring tooling pays dividends."
+    }
+  ],
+  "jobs": {
+    "mock-product-engineer": "---\nid: mock-product-engineer\ncompany_name: Northstar Labs\nrecruiter_name: Alex Morgan\nlinks:\n  - https://northstarlabs.example/careers/product-engineer\n  - https://northstarlabs.example/about\n---\n\n# Job Description\n\nNorthstar Labs is hiring a Senior Product Engineer to help build AI-assisted workflow tools for knowledge workers. The role combines product judgment, frontend architecture, API integration, and close collaboration with design and go-to-market teams.\n\nResponsibilities include:\n\n- Build polished product experiences with React, TypeScript, and modern web platform APIs.\n- Prototype and evaluate AI-assisted workflows with clear success criteria.\n- Partner with design and product leadership to turn ambiguous customer needs into shipped features.\n- Improve reliability, observability, and maintainability across product surfaces.\n\nPreferred background:\n\n- Strong frontend engineering experience in production SaaS environments.\n- Experience integrating LLMs or agentic systems into user-facing workflows.\n- Clear written communication and comfort working with executives, designers, and engineers.\n- Ability to balance speed, craft, and pragmatic technical decisions.\n\n# Resume\n\nDavid Jackson is a senior frontend and product-minded engineering leader with 15+ years of experience building complex digital products, design systems, and content-rich web platforms. His background includes senior leadership at Publicis Sapient, frontend architecture for major brands, AI product exploration, and formal computer science study with a machine learning focus.\n\nRelevant highlights:\n\n- Led and shipped large-scale React and Node.js systems for enterprise clients.\n- Built frontend hiring assessment systems and improved engineering evaluation practices.\n- Combines product strategy, UX judgment, and hands-on implementation.\n- Currently deepening AI and ML foundations through a BSc Computer Science program.\n\n# Questions\n\n- How does Northstar Labs currently evaluate the quality of AI-assisted workflow features?\n- What product surfaces would this role own in the first six months?\n- How closely does the engineering team work with customers during discovery and iteration?\n- What are the biggest frontend architecture challenges in the current product?\n\n# Notes\n\nEmphasize David's combination of product taste, frontend depth, executive communication, and practical AI product thinking. For this role, prioritize examples involving ambiguous requirements, polished UX, technical leadership, and translating AI capability into trustworthy user workflows.\n"
+  },
+  "jobProfiles": {
+    "mock-product-engineer": {
+      "companyName": "Northstar Labs",
+      "recruiterName": "Alex Morgan"
+    }
+  }
+}

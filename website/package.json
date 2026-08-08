@@ -5,14 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "content:build": "node scripts/build-agent-content.mjs",
+    "build": "npm run content:build && next build",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "pages:build": "npx @cloudflare/next-on-pages && echo '_worker.js' > .vercel/output/static/.assetsignore",
-    "preview": "npm run pages:build && wrangler pages dev"
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "@langchain/core": "^0.3.42",
@@ -20,6 +23,7 @@
     "@langchain/langgraph-api": "^0.0.16",
     "@langchain/langgraph-cli": "^0.0.16",
     "@langchain/langgraph-sdk": "^0.0.57",
+    "@opennextjs/cloudflare": "^1.20.2",
     "@radix-ui/react-avatar": "^1.1.3",
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-label": "^2.1.2",
@@ -55,7 +59,6 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1",
     "@eslint/js": "^9.19.0",
     "@tailwindcss/postcss": "^4.0.13",
     "@types/lodash": "^4.17.16",
@@ -70,7 +73,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
-    "next": "^15.2.3",
+    "next": "^15.5.23",
     "postcss": "^8.5.3",
     "tailwind-scrollbar": "^4.0.1",
     "tailwindcss": "^4.0.13",

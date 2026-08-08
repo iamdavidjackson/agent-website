@@ -1,8 +1,28 @@
-# website/wrangler.toml
-name = 'agent-website'
-main = ".vercel/output/static/_worker.js/index.js"
-compatibility_date = "2024-09-23"
-compatibility_flags = ["nodejs_compat"]
+name = "agent-website"
+main = ".open-next/worker.js"
+compatibility_date = "2026-08-07"
+compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+workers_dev = true
+
+[[routes]]
+pattern = "iamdavidjackson.com/*"
+zone_id = "44ae18acfa98783d56ef4f7d0b1ed807"
 
 [assets]
-directory = ".vercel/output/static"
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[[services]]
+binding = "WORKER_SELF_REFERENCE"
+service = "agent-website"
+
+[observability]
+enabled = true
+
+[[ratelimits]]
+name = "CHAT_RATE_LIMITER"
+namespace_id = "1001"
+
+[ratelimits.simple]
+limit = 10
+period = 60

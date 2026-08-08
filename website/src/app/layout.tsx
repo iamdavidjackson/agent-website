@@ -11,9 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Agent for David Jackson",
-  description:
-    "A conversational portfolio assistant for David Jackson's background, experience, and job-specific application context.",
+  title: "David Jackson",
+  description: "David Jackson — frontend architect and engineering leader.",
 };
 
 export default function RootLayout({

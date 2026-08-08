@@ -17,9 +17,12 @@ Each record uses:
 1. YAML front matter for structured metadata
 2. Markdown headings for rich narrative fields
 
-## Parsing Convention
+## Build Convention
 
-For the initial parser, assume:
+Running `npm run content:build` from `website/` reads these files, splits their
+Markdown sections, and writes the bundled data to
+`website/src/generated/agent-content.json` for the chat API. The source files
+use:
 
 - front matter contains scalar fields, dates, arrays, and identity metadata
 - markdown body sections are mapped by heading name
@@ -27,12 +30,12 @@ For the initial parser, assume:
 - prose sections map to strings
 - related records are linked by IDs in front matter and resolved by the parser
 
-## Current Mock Data
+## Content Coverage
 
-The files in this folder are fixtures for Story 1.1 development. They are intentionally realistic enough to test:
+The files in this folder cover:
 
 - front matter parsing
 - markdown section parsing
 - list extraction
 - related records such as education programs and course files
-- later RAG chunking experiments
+- retrieval context used by the production agent
