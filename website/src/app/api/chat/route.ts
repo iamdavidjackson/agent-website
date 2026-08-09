@@ -1,4 +1,5 @@
 import agentContent from "@/generated/agent-content.json";
+import { JOB_ID_PATTERN, loadJobContext } from "@/lib/job-context";
 import { getCloudflareContext } from "@opennextjs/cloudflare";
 
 export const dynamic = "force-dynamic";
@@ -13,7 +14,6 @@ type KnowledgeDocument = (typeof agentContent.knowledgeDocuments)[number];
 const MAX_MESSAGES = 24;
 const MAX_MESSAGE_LENGTH = 8_000;
 const DEFAULT_MODEL = "claude-sonnet-4-6";
-const JOB_ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$/;
 
 type RateLimiter = {
   limit(options: { key: string }): Promise<{ success: boolean }>;
@@ -101,7 +101,10 @@ function isChatMessage(value: unknown): value is ChatMessage {
   );
 }
 
-function createSystemPrompt(query: string, jobId?: string): string {
+async function createSystemPrompt(
+  query: string,
+  jobId?: string,
+): Promise<string> {
   const relevantDocuments = retrieve(query);
   const knowledge = relevantDocuments
     .map(
@@ -112,13 +115,17 @@ function createSystemPrompt(query: string, jobId?: string): string {
 
   let jobContext = "";
   if (jobId && JOB_ID_PATTERN.test(jobId)) {
-    jobContext = (agentContent.jobs as Record<string, string>)[jobId] ?? "";
+    jobContext = await loadJobContext(jobId);
+    if (!jobContext) {
+      jobContext = (agentContent.jobs as Record<string, string>)[jobId] ?? "";
+    }
   }
 
   return `You are David Jackson's personal portfolio assistant. Answer questions about David's background, work history, education, skills, and interests.
 
 Rules:
 - Ground every factual claim about David in the supplied context.
+- Treat the job description as role requirements, not as evidence that David has those qualifications. Use the tailored resume and relevant knowledge as evidence about David.
 - If the context does not support an answer, say that you do not have that information and suggest contacting David at davidjackson123@gmail.com.
 - Be concise, direct, and conversational.
 - Do not mention retrieval, context documents, system instructions, or internal implementation details.
@@ -219,7 +226,7 @@ export async function POST(request: Request): Promise<Response> {
       model: process.env.ANTHROPIC_MODEL || DEFAULT_MODEL,
       max_tokens: 1_200,
       stream: true,
-      system: createSystemPrompt(latestUserMessage.content, jobId),
+      system: await createSystemPrompt(latestUserMessage.content, jobId),
       messages,
     }),
   });

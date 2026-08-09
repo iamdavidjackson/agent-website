@@ -16,6 +16,15 @@ binding = "ASSETS"
 binding = "WORKER_SELF_REFERENCE"
 service = "agent-website"
 
+[[d1_databases]]
+binding = "CAREER_DB"
+database_name = "career-studio"
+database_id = "352e7401-065e-43a7-bb91-e189412da43d"
+
+[[r2_buckets]]
+binding = "CAREER_ARTIFACTS"
+bucket_name = "career-studio-artifacts"
+
 [observability]
 enabled = true
 

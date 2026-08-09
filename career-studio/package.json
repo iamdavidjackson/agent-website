@@ -1,0 +1,35 @@
+{
+  "name": "career-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "content:build": "node scripts/build-career-content.mjs",
+    "build": "npm run content:build && next build",
+    "start": "next start",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "db:migrate:local": "wrangler d1 migrations apply career-studio --local",
+    "db:migrate:remote": "wrangler d1 migrations apply career-studio --remote"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.2",
+    "lucide-react": "^0.468.0",
+    "marked": "^16.1.2",
+    "next": "^16.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-markdown": "^10.0.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260808.1",
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "typescript": "~5.7.2",
+    "wrangler": "^4.94.0"
+  }
+}

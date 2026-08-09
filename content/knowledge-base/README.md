@@ -5,6 +5,7 @@ This folder contains markdown-based source records for the personal knowledge ba
 ## Structure
 
 - `work-history/` - one file per role
+- `profile/` - canonical contact details and professional positioning
 - `education/` - one file per program
 - `education/courses/` - one file per course
 - `interests/` - one file per interest
