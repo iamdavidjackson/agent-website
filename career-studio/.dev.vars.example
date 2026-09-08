@@ -1,0 +1,4 @@
+ANTHROPIC_API_KEY=<your-anthropic-api-key>
+ANTHROPIC_MODEL=claude-sonnet-4-6
+CAREER_STUDIO_ACCESS_EMAIL=<your-cloudflare-access-email>
+CAREER_STUDIO_LOCAL_DEV=true

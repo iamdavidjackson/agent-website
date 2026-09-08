@@ -1,5 +1,5 @@
 {
-  "knowledgeDocuments": [
+  "documents": [
     {
       "id": "education/courses/agile-software-projects.md#1",
       "source": "education/courses/agile-software-projects.md",
@@ -390,14 +390,5 @@
       "category": "work-history",
       "content": "---\nid: sapientnitro-senior-interactive-developer\ntitle: Senior Interactive Developer\ncompany: SapientNitro\nstartDate: 2014-10\nendDate: 2015-08\nclients:\n  - Harley-Davidson\n  - Loblaw Digital\ntechnologies:\n  - jQuery\n  - RequireJS\n  - Adobe Experience Manager (AEM)\n  - ExpressionEngine CMS\n  - BackboneJS\n  - SAP Hybris\n  - CSS animations\nlinks: []\narchived: false\ncreatedAt: 2026-05-25T00:00:00-04:00\nupdatedAt: 2026-05-25T00:00:00-04:00\n---\n\n# Lessons Learned\n\n- Custom event emitter patterns can elegantly solve real-time state synchronization problems without a heavy framework.\n- CMS authoring experience is often as important as the customer-facing result — investing in authoring tooling pays dividends."
     }
-  ],
-  "jobs": {
-    "mock-product-engineer": "---\nid: mock-product-engineer\ncompany_name: Northstar Labs\nrecruiter_name: Alex Morgan\nlinks:\n  - https://northstarlabs.example/careers/product-engineer\n  - https://northstarlabs.example/about\n---\n\n# Job Description\n\nNorthstar Labs is hiring a Senior Product Engineer to help build AI-assisted workflow tools for knowledge workers. The role combines product judgment, frontend architecture, API integration, and close collaboration with design and go-to-market teams.\n\nResponsibilities include:\n\n- Build polished product experiences with React, TypeScript, and modern web platform APIs.\n- Prototype and evaluate AI-assisted workflows with clear success criteria.\n- Partner with design and product leadership to turn ambiguous customer needs into shipped features.\n- Improve reliability, observability, and maintainability across product surfaces.\n\nPreferred background:\n\n- Strong frontend engineering experience in production SaaS environments.\n- Experience integrating LLMs or agentic systems into user-facing workflows.\n- Clear written communication and comfort working with executives, designers, and engineers.\n- Ability to balance speed, craft, and pragmatic technical decisions.\n\n# Resume\n\nDavid Jackson is a senior frontend and product-minded engineering leader with 15+ years of experience building complex digital products, design systems, and content-rich web platforms. His background includes senior leadership at Publicis Sapient, frontend architecture for major brands, AI product exploration, and formal computer science study with a machine learning focus.\n\nRelevant highlights:\n\n- Led and shipped large-scale React and Node.js systems for enterprise clients.\n- Built frontend hiring assessment systems and improved engineering evaluation practices.\n- Combines product strategy, UX judgment, and hands-on implementation.\n- Currently deepening AI and ML foundations through a BSc Computer Science program.\n\n# Questions\n\n- How does Northstar Labs currently evaluate the quality of AI-assisted workflow features?\n- What product surfaces would this role own in the first six months?\n- How closely does the engineering team work with customers during discovery and iteration?\n- What are the biggest frontend architecture challenges in the current product?\n\n# Notes\n\nEmphasize David's combination of product taste, frontend depth, executive communication, and practical AI product thinking. For this role, prioritize examples involving ambiguous requirements, polished UX, technical leadership, and translating AI capability into trustworthy user workflows.\n"
-  },
-  "jobProfiles": {
-    "mock-product-engineer": {
-      "companyName": "Northstar Labs",
-      "recruiterName": "Alex Morgan"
-    }
-  }
+  ]
 }

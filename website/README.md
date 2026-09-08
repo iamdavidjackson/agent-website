@@ -24,7 +24,11 @@ The website is available at `http://localhost:3000`; the chat interface is at
 The build automatically bundles the shared Markdown files under
 `../content/knowledge-base` and `../content/jobs`. Run
 `npm run content:build` after changing that content if you need to inspect the
-generated JSON without performing a full build.
+generated JSON without performing a full build. Application-specific links use
+`/agent?jobId=<application UUID>`. In production, the Worker resolves completed
+Career Studio applications from the shared D1 database and reads the tailored
+resume from the shared R2 bucket; bundled job Markdown remains a local/static
+fallback.
 
 ## Cloudflare deployment
 
@@ -73,3 +77,7 @@ For Git-based Cloudflare deployments, use `website` as the application root and
 `/api/chat` uses a Cloudflare Rate Limiting binding to allow ten requests per
 minute per visitor before invoking the paid model. Keep `ANTHROPIC_API_KEY`
 server-side; never create a `NEXT_PUBLIC_` version of it.
+
+The `CAREER_DB` and `CAREER_ARTIFACTS` bindings are read-only by convention in
+the website code. The public agent receives the role metadata, job description,
+and final tailored resume, but not Career Studio notes or private analysis.

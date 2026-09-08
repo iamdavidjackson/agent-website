@@ -1,0 +1,41 @@
+name = "career-studio"
+main = "custom-worker.ts"
+compatibility_date = "2026-08-08"
+compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+workers_dev = false
+
+[vars]
+AGENT_BASE_URL = "https://iamdavidjackson.com/agent"
+
+[[routes]]
+pattern = "career.iamdavidjackson.com/*"
+zone_id = "44ae18acfa98783d56ef4f7d0b1ed807"
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[[services]]
+binding = "WORKER_SELF_REFERENCE"
+service = "career-studio"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "career-studio"
+database_id = "352e7401-065e-43a7-bb91-e189412da43d"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "ARTIFACTS"
+bucket_name = "career-studio-artifacts"
+
+[[workflows]]
+name = "career-application-workflow"
+binding = "CAREER_WORKFLOW"
+class_name = "CareerApplicationWorkflow"
+
+[browser]
+binding = "BROWSER"
+
+[observability]
+enabled = true
